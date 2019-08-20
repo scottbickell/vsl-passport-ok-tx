@@ -1,0 +1,248 @@
+@import 'settings';
+@import 'foundation-emails';
+
+// @import 'template/template';
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i');
+
+@media only screen {
+    html {
+        min-height: 100%;
+        background: #f3f3f3
+    }
+
+    td,
+    a,
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    li,
+    div,
+    span {
+        font-family: 'Open Sans', sans-serif !important;
+    }
+}
+
+.signature p {
+    font-size: 14px;
+}
+
+.preview-subject {
+    font-family: monospace;
+    border: 2px dashed orange;
+    padding: 10px;
+    background: #ffffff;
+}
+
+.blue-bg {
+    background: #27c3dc;
+}
+
+p.view-online {
+    background: $body-background;
+    color: #ccc !important;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+img.passport-logo {
+    max-width: 225px;
+}
+
+.view-online a {
+    font-weight: normal;
+    text-decoration: underline;
+    color: #ccc !important;
+}
+
+td {
+    hyphens: none;
+    -moz-hyphens: none;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+}
+
+// .cta-box {
+//     border-left: 1px solid #005587;
+// }
+
+a, a:visited, a:hover {
+    text-decoration: underline;
+    font-weight: normal;
+    color: #005587;
+}
+
+
+table.button table td a {
+    text-align: center;
+}
+
+.footer {
+    background: #4a4f55;
+}
+
+.footer p {
+    color: #ffffff;
+    font-size: 10px;
+    margin-left: 8px;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.unsubscribe {
+    background: $body-background;
+}
+
+.unsubscribe p {
+    font-size: 10px;
+}
+
+.unsubscribe a {
+    color: #000000;
+    font-weight: normal;
+}
+
+.signature img {
+    max-width: 200px;
+}
+
+.showit {
+    background: #e5e5e5;
+}
+
+.social-media {
+    background: $body-background;
+}
+
+.social-media img {
+    display: inline;
+    width: 32px;
+    height: 32px;
+    margin: 0 2px;
+}
+
+
+
+ul {
+    padding-left: 20px;
+}
+
+.passport-icons {
+    width: 110px !important;
+}
+
+.emphasize {
+    color: #009bdf;
+    font-weight: bold;
+}
+
+
+// <br class="hide-hardbreak">
+
+.vsl-logo {
+    max-width: 300px;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+table.button table td {
+    text-align: center !important;
+}
+
+.whitebg {
+    background: #ffffff;
+}
+
+.no-bottom-padding {
+    padding-bottom: 0 !important;
+}
+
+h1 {
+    font-size: 26px;
+    line-height: 30px;
+    color: #005587;
+    text-align: center;
+}
+
+h2 {
+    font-size: 26px;
+    line-height: 28px;
+    color: #005587;
+    font-weight: normal;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #005587;
+}
+
+.top-text {
+    font-size: 12px;
+}
+
+// literacy product styles
+
+.literacy {
+    border-color: #ffbf3d;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.product-table.literacy .product-header {
+    background: #ffbf3d;
+}
+
+.product-content p {
+    font-size: 14px;
+}
+
+.headline {
+    background: #005587;
+}
+
+
+sup {
+    font-size: 10px;
+    line-height: 10px;
+    display: inline-block;
+    margin-left: 2px;
+}
+//.product-name {
+//    white-space: nowrap;
+//}
+
+@media only screen and (max-width: 616px) {
+    .social-media img {
+        width: 42px !important;
+        height: 42px !important;
+        margin: 0 5px;
+    }
+    .large-float-right {
+        display: inline;
+        float: right;
+    }
+    .hide-hardbreak {
+        display: none;
+    }
+    .vsl-logo {
+        max-width: 154px;
+    }
+    .rep-photo {
+        width: 96px !important;
+    }
+}
+
